@@ -17,7 +17,7 @@ import java.util.Scanner;
 
 public class GridObj {
     
-    static List<GridObj> entities = new ArrayList<>();
+    static List<GridObj> entities = new ArrayList<GridObj>();
     
     static void listEntities( ) {
         int num = 0;
